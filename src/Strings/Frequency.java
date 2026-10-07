@@ -28,7 +28,7 @@ class counter {
 //		for (Character set: key) {
 //			System.out.println("Character: " + set + "--> " +hmap.get(set) +"times");
 //		}
-		
+//		
 		for( Map.Entry <Character,Integer> kv : hmap.entrySet()) {
 			System.out.println(kv);
 		}
